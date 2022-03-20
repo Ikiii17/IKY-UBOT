@@ -7,7 +7,7 @@ FROM ramadhani892/ramagans:slim-buster
 # ======================
 ##
 
-RUN git clone -b RAM-UBOT https://github.com/ramadhani892/RAM-UBOT /home/Developer/ \
+RUN git clone -b RAM-UBOT https://github.com/ikiii17/IKY-UBOT /home/Developer/ \
     && chmod 777 /home/Developer \
     && mkdir /home/Developer/bin/
 WORKDIR /home/Developer/
